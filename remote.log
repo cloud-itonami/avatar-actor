@@ -1,0 +1,1 @@
+5c30e95e-3070-4df7-b399-928dec07a3ab bucket=gftdcojp-m365-annex chunk=50MiB datacenter=US encryption=none fileprefix=gftd-avatar-actor/ host=s3.us-west-004.backblazeb2.com name=b2 port=443 protocol=https signature=v4 storageclass=STANDARD type=S3 timestamp=1783855473s
