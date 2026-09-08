@@ -13,7 +13,7 @@
   capable critique call against the exported VRM's rendered preview) is
   follow-up work — see ADR-2607123000 Consequences."
   (:require [json.compat :as json]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [kotoba.net.jvm-host :as jvm-host])
   )
 
