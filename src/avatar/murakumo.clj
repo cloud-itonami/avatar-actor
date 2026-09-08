@@ -25,7 +25,7 @@
   )
 
 (def modality :vrm-compose)
-(def actor-id "gftd-avatar-actor")
+(def actor-id "avatar-actor")
 
 (defn function
   "This actor's murakumo.edn `:apps :generation` function entry (SSoT stays

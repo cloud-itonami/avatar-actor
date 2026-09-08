@@ -1,5 +1,5 @@
 (ns avatar.cacao
-  "Agent-side CACAO issuance (JVM) for gftd-avatar-actor. 1:1 port of the
+  "Agent-side CACAO issuance (JVM) for avatar-actor. 1:1 port of the
   PROVEN `cloud_itonami.media.cacao` (itself ported from `kawaraban.cacao` /
   `tashikame.cacao` / `kotoba.cacao`) — deliberately NOT built on
   `io.github.kotoba-lang/org-chainagnostic-cacao`, since this SIWE+CBOR
@@ -139,7 +139,7 @@
   (graph-cid-from-name (str "kotobase/db/" did "/" db-name)))
 
 (def default-db-name
-  "gftd-avatar-actor's own database."
+  "avatar-actor's own database."
   "avatar")
 
 (defn generate-identity []

@@ -28,12 +28,12 @@
    :asset/kind kind
    :asset/format format
    :asset/title title
-   :asset/author "gftd-avatar-actor"
+   :asset/author "avatar-actor"
    :asset/license license
    :asset/tags (vec tags)
    :asset/source :gen
    :asset/gen {:stage :vrm-compose :job-key gen-job-id :prompt prompt
-               :provenance "murakumo/kisekae via gftd-avatar-actor co-scientist loop"}
+               :provenance "murakumo/kisekae via avatar-actor co-scientist loop"}
    :asset/created created})
 
 (defn write-asset!
