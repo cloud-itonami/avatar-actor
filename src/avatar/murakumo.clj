@@ -10,7 +10,7 @@
   murakumo fleet worker (`clojure -M:worker --kotoba-url https://kotobase.net
   --kotoba-graph gftd-murakumo`, running on a Mac-mini / `gad` node) has to be
   up and consuming that queue for jobs to ever leave :queued. Same
-  operational dependency ai-gftd-apex already has on cloud-murakumo.
+  operational dependency apex already has on cloud-murakumo.
 
   SECOND HONEST LIMIT (avatar-specific, see avatar.generate): unlike the
   :image actor, `:vrm-compose`/`:kisekae` is not text-to-X — it composites a
