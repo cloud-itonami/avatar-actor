@@ -24,7 +24,7 @@
   README.md. There is no automated pipeline yet feeding this actor parts
   from other actors (e.g. sculpt-actor's own accepted output) — that
   hand-off is explicit follow-up, not wired here."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def gene-pool
   {:expression ["neutral" "gentle-smile" "focused"]
