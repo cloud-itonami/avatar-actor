@@ -22,7 +22,7 @@
   `round-candidates` returns an EMPTY vector (0 candidates) rather than
   submitting a job with no parts to compose — see the HONEST LIMIT in
   README.md. There is no automated pipeline yet feeding this actor parts
-  from other actors (e.g. gftd-sculpt-actor's own accepted output) — that
+  from other actors (e.g. sculpt-actor's own accepted output) — that
   hand-off is explicit follow-up, not wired here."
   (:require [clojure.string :as str]))
 
