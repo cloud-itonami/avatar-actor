@@ -103,14 +103,14 @@ datalad push --to b2           # push new bytes after a local save
 ## Running
 
 ```sh
-AVATAR_PARTS_CIDS="cid-base-body,cid-costume-jacket" clojure -M:run tick
+AVATAR_PARTS_CIDS="cid-base-body,cid-costume-jacket" kbb -M:run tick
                          # one durable-loop step (cron/launchd) — see HONEST
                          # LIMITS: without AVATAR_PARTS_CIDS, tick still
                          # returns :submitted but submits zero candidates
-clojure -M:run run       # stay resident, tick on an interval
-clojure -M:run status    # print ledger tail + loop state
-clojure -M:test          # offline, fully faked (no network) — see test/avatar/loop_test.cljk
-clojure -M:lint          # clj-kondo, errors fail
+kbb -M:run run       # stay resident, tick on an interval
+kbb -M:run status    # print ledger tail + loop state
+kbb -M:test          # offline, fully faked (no network) — see test/avatar/loop_test.cljk
+kbb -M:lint          # clj-kondo, errors fail
 ```
 
 Env: `AVATAR_PARTS_CIDS` (comma-separated input part CIDs — see HONEST
