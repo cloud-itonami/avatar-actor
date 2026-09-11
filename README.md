@@ -109,7 +109,7 @@ AVATAR_PARTS_CIDS="cid-base-body,cid-costume-jacket" clojure -M:run tick
                          # returns :submitted but submits zero candidates
 clojure -M:run run       # stay resident, tick on an interval
 clojure -M:run status    # print ledger tail + loop state
-clojure -M:test          # offline, fully faked (no network) — see test/avatar/loop_test.clj
+clojure -M:test          # offline, fully faked (no network) — see test/avatar/loop_test.cljk
 clojure -M:lint          # clj-kondo, errors fail
 ```
 
