@@ -5,7 +5,7 @@
   Datomic/langchain.db indirection needed for a single-writer file-per-actor
   ledger."
   (:require [clojure.java.io :as io]
-            [clojure.edn :as edn])
+            [kotoba.lang.edn :as edn])
   (:import [java.time Instant]))
 
 (def default-path "ledger/events.edn")

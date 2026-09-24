@@ -14,7 +14,7 @@
   returns 0 candidates, so submit-round! simply submits nothing that tick
   (never a broken job with no refs) — see avatar.generate's docstring."
   (:require [clojure.java.io :as io]
-            [clojure.edn :as edn]
+            [kotoba.lang.edn :as edn]
             [kotoba.lang.text :as str]
             [avatar.persona :as persona]
             [avatar.generate :as generate]
