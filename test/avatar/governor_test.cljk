@@ -1,5 +1,5 @@
 (ns avatar.governor-test
-  (:require [clojure.test :refer [deftest testing is]]
+  (:require [kotoba.test :refer [deftest testing is]]
             [avatar.governor :as governor]))
 
 (def clean-asset

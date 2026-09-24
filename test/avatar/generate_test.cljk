@@ -4,7 +4,7 @@
   anything to compose at all (see avatar.generate's docstring). Every test
   that exercises the 'parts are configured' path with-redefs
   avatar.generate/parts-cids instead of touching real process env."
-  (:require [clojure.test :refer [deftest testing is]]
+  (:require [kotoba.test :refer [deftest testing is]]
             [avatar.generate :as generate]))
 
 (def persona {:tags ["network-isekai"]})

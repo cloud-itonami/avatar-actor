@@ -6,7 +6,7 @@
   the round actually has candidates to submit (see avatar.generate — with no
   AVATAR_PARTS_CIDS configured, round-candidates would return [] and there
   would be nothing here to settle)."
-  (:require [clojure.test :refer [deftest testing is]]
+  (:require [kotoba.test :refer [deftest testing is]]
             [clojure.java.shell :as shell]
             [avatar.loop :as loop]
             [avatar.generate :as generate]
