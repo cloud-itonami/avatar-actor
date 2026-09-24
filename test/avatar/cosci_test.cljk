@@ -1,5 +1,5 @@
 (ns avatar.cosci-test
-  (:require [clojure.test :refer [deftest testing is]]
+  (:require [kotoba.test :refer [deftest testing is]]
             [avatar.cosci :as cosci]))
 
 (defn- result [id status & {:keys [format bytes safety] :or {format "vrm" bytes (byte-array [1]) safety false}}]
