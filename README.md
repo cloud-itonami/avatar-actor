@@ -14,7 +14,7 @@ ledger" containment pattern as this workspace's other actors
 (`gftd-talent-actor`, `wami-actor`, `cloud-itonami`, `gftd-illust-actor`) —
 here it is **co-scientist tournament ⊣ AssetGovernor**, run by a **durable
 outer loop** (not a StateGraph — murakumo generation jobs are async,
-minutes-scale, and this workspace's CLAUDE.md is explicit that long-running
+minutes-scale, and this workspace's AGENTS.md is explicit that long-running
 work belongs in a lease/tick/budget loop, not a StateGraph interrupt).
 
 ## Not text-to-X: this actor composites, it does not conjure
@@ -31,7 +31,7 @@ configuration** across candidates — `:expression` / `:material-variant` /
 per call from `AVATAR_PARTS_CIDS` (see HONEST LIMITS below). `avatar.generate`
 is a plain `.clj` (not `.cljc` like `illust.generate`) because it needs
 `System/getenv` up front for that — same judgment `illust.persona` made once
-a JVM-only call was needed (root CLAUDE.md `.cljc`/`.kotoba` runtime-priority
+a JVM-only call was needed (root AGENTS.md `.cljc`/`.kotoba` runtime-priority
 note).
 
 ## The core contract

@@ -4,7 +4,7 @@
   unlike `:image`'s pure text-prompt generation, `:vrm-compose`/`:kisekae`
   needs `System/getenv` up front (see below) and there is no JVM-free runtime
   path for that in this repo yet (same judgment illust's own persona.cljc ->
-  persona.clj made once a JVM-only call was needed — root CLAUDE.md
+  persona.clj made once a JVM-only call was needed — root AGENTS.md
   `.cljc`/`.kotoba` runtime-priority note).
 
   STRUCTURAL DIFFERENCE FROM illust.generate (read this before touching
